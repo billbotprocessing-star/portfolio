@@ -1,14 +1,17 @@
-# Project Portfolio Quest
+# Danielle Traynor Portfolio
 
-A game-style project portfolio homepage built as a single HTML file.
+A 3D cube portfolio for Danielle Traynor, highlighting financial operations experience and growing frontend web development skills.
 
-## How it works
+## What It Shows
 
-Open `index.html` in a browser. Press Start, then click each pipe to reveal a project card.
+- Financial operations and accounting experience
+- Education in business administration and accounting
+- Frontend growth with HTML, CSS, JavaScript, responsive layouts, and interactive portfolio work
+- A project portfolio link for web development samples
 
-## Customize projects
+## Project Portfolio
 
-Edit the `projects` array near the bottom of `index.html` to replace the placeholder project titles, descriptions, tools, status, and links with your real work.
+[View the Notion project portfolio](https://gilded-cereal-e8b.notion.site/Project-Portfolio-3df645a9544282e0b4e3018bc8e243f1)
 
 ## GitHub Pages
 
