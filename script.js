@@ -12,15 +12,3 @@ document.querySelectorAll(".btn").forEach(btn => {
     clickOnSide(sideToTurn);
   });
 });
-
-document.querySelectorAll(".visit-app").forEach(link => {
-  link.addEventListener("click", (e) => {
-    e.stopPropagation();
-
-    const url = link.getAttribute("href");
-    if (!url || url === "#") return;
-
-    e.preventDefault();
-    window.open(url, "_blank", "noopener,noreferrer");
-  });
-});
