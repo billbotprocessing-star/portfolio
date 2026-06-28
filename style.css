@@ -102,10 +102,21 @@ a {
   justify-content: center;
   align-items: center;
   overflow: auto;
+  pointer-events: none;
+  backface-visibility: hidden;
   background-color: rgba(0, 0, 0, 0.84);
   background-image: var(--chip-image);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.cube.show-front .cube-face-front,
+.cube.show-right .cube-face-right,
+.cube.show-back .cube-face-back,
+.cube.show-left .cube-face-left,
+.cube.show-top .cube-face-top,
+.cube.show-bottom .cube-face-bottom {
+  pointer-events: auto;
 }
 
 .cube-face-front { transform: rotateY(0deg) translateZ(300px); }
@@ -297,6 +308,8 @@ button:hover {
 .visit-app {
   background-color: rgba(0, 0, 0, 0.78);
   padding: 5px 5px;
+  position: relative;
+  z-index: 3;
 }
 
 .visit-app:hover {
